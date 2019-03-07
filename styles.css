@@ -1,0 +1,567 @@
+/* CSS for Background Gif Begins Here */
+body {
+	background: url(images/Main.gif) no-repeat center center fixed;
+}
+/* CSS for Background Gif Ends Here */
+
+
+/* CSS for Logo Begins Here */
+#logoWell{
+    background-color: transparent;
+    border-style: hidden;
+    height: 100px;
+    width: 800px;
+    margin-left: 220px;
+}
+
+#ImageWell{
+    margin-left: -5px;
+    margin-top: -75px;
+}
+
+#ImageWell2 {
+    margin-left: 100px;
+    margin-top: -200px;
+}
+/* CSS for Logo Ends Here */
+
+
+/* CSS for the Container Begins Here */
+.container{
+    background-color: transparent;
+    height: 600px;
+}
+/* CSS for the Container Ends Here */
+
+                                    
+/* CSS for the NavBar Begins Here */
+#navbar {
+    background-color: aqua;
+    height: 53px;
+    width: 990px;
+    border: 1px solid #30d8f2;
+    border-radius: 5px;  
+}
+/* CSS for NavBar Ends Here */
+
+
+                                /* CSS for Mainframe.php page Begins Here */
+
+/* The boots is the background of the login, ads and game area */
+#boots{
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: 150px;
+    width: 800px;
+    height: 550px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 180px;
+}
+
+/* The leftWell is the box on the left which contains the login and ads */
+#leftWell {
+    background-color: white;
+    border-bottom-color: black;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    height: 500px;
+    width: 225px;
+    margin-top: 25px;
+}
+
+/* The game is where the game will be displayed */
+#myCanvas {
+    position: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 525px;
+    height: 500px;
+    margin-left: 220px;
+    margin-top: -480px;
+    
+}
+
+/* The forgot1 is the forgot password para*/
+#forgot1{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#forgotModal{
+    width: 300px;
+}
+
+/* The loginButton is for the login button */
+#loginButton{
+    margin-left: 55px;
+    margin-top: -5px;
+}
+
+#logOut{
+    margin-left: 60px;
+    margin-top: 13px;
+    height: 30px;
+    text-align:center;
+}
+
+/* The TopGamesImage is for the image in the leftWell */
+#TopGamesImage {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+/* The ad1Image is the first ad */
+#ad1Image {
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+/* The ad1Image is the second ad */
+#ad2Image {
+    margin-top: -8px;
+    margin-left: 25px;
+}
+
+/* The ad1Image is the third ad */
+#ad3Image {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/* The ad1Image is the fourth ad */
+#ad4Image {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+/* The ad1Image is the fifth ad */
+#ad5Image {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/* The ad1Image is the sixth ad */
+#ad6Image {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+/* The MoreGames is a button in the leftWell */
+#MoreGames {
+    margin-top: 8px;
+    margin-left: 40px;
+    
+}
+
+#introScreen{
+    position: absolute;
+    z-index: 101;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 525px;
+    height: 500px;
+    margin-left: 220px;
+    margin-top: -480px;
+    background-image: url(images/gameBack.png);
+    
+}
+
+#welcomeImage{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#startButton{
+    margin-left: 220px;
+}
+
+#leaderboardButton{
+    margin-left: 220px;
+    text-align: center;
+    margin-top: 15px;
+    width: 98px;
+}
+
+#difficultyButton{
+    margin-left: 220px;
+    margin-top: 15px;
+    width: 98px;
+   
+}
+
+#settingButton{
+    margin-left: 220px;
+    margin-top: 15px;
+    width: 98px;
+}
+
+                                /* CSS for Mainframe.php page Ends Here */
+
+
+                                /* CSS for Leaderboard Page Starts Here */
+
+/* The leaderboardWell controls the well for the content on the page */
+#leaderboardWell{
+    background-color: aqua;
+    height: 570px;
+    width: 750px;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+/* The leaderboardImage controls the leaderboard image */
+#leaderboardImage{
+    margin-top: -20px;
+}
+
+/* The leaderboardWell2 controls the well for the leaderboard table */
+#leaderboardWell2 {
+    background-color: #30d8f2;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-color: #30d8f2;
+    border-left-color: #30d8f2;
+    border-right-color: #30d8f2;
+    border-top-color: #30d8f2;
+    height: 500px;
+    width: 700px;
+    margin-top: -530px;
+    margin-left: 225px;
+}
+
+/* The leaderboardTable controls the table itself within the page */
+#leaderboardTable{
+    margin-left: 25px; 
+}
+
+/* The UsernameImage controls the image within the table*/
+#UsernameImage {
+   margin-left: 50px;
+    
+} 
+
+/* The ScoreImage controls the image within the table */
+#ScoreImage {
+    margin-left: 50px;
+} 
+
+                                /* CSS for Leaderboard Page Ends Here */
+
+
+                                /* CSS for Contact Us Page Begins Here */
+
+/* The ContactUsWell controls the well for page */
+#ContactUsWell{
+    background-color: aqua;
+    height: 570px;
+    width: 750px;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+/* The ContactUsImage controls the contact us image */
+#ContactUsImage{
+    margin-top: -20px;
+}
+
+/* The ContactUsWell2 controls the well for the content of the page*/
+#ContactUsWell2{
+    background-color: #30d8f2;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-color: #30d8f2;
+    border-left-color: #30d8f2;
+    border-right-color: #30d8f2;
+    border-top-color: #30d8f2;
+    height: 500px;
+    width: 700px;
+    margin-top: -5px;
+}
+
+/* The ContactUsWell controls the well for the contact us image */
+#HelpImage {
+    margin-top: -20px;
+}
+
+/* The nameImage controls the name image */
+#nameIMAGE {
+    margin-top: -900px;
+    margin-left: -500px;
+}
+
+/* The box1 is the input box for the name of user*/
+#box1 {
+    margin-top: -470px;
+    margin-left: -250px;  
+}
+
+/* The emailImage controls the email image */
+#emailIMAGE {
+    margin-left: -485px;
+    margin-top: 10px;
+}
+
+/* The box2 is the input box for the email of user */
+#box2 {
+    margin-top: -35px;
+    margin-left: -225px;
+}
+
+/* The subjectImage controls the subject image */
+#subjectIMAGE {
+    margin-left: -455px;
+    margin-top: 10px;
+}
+
+/* The box3 is the scroll bar which allows the user to choose their query */
+#box3 {
+    margin-top: -33px;
+    margin-left: -160px;
+}
+
+/* The commentImage controls the comment image */
+#commentIMAGE {
+    margin-left: -455px;
+    margin-top: 10px;
+}
+
+/* The box4 is the input box for the comment of the user for their query */
+#box4 {
+    margin-top: -7px;
+    margin-left: -30px;
+}
+
+/* The button1 is the send button which sends the query */
+#button1 {
+    margin-left: -510px;
+    margin-top: 5px;
+}
+
+                                /* CSS for Contact Us Page Ends Here */
+
+
+                                /* CSS for Privacy Policy Page Begins Here */
+
+/*  The PrivacyPolicyWell controls the well for the content of the page */
+#PrivacyPolicyWell{
+    background-color: aqua;
+    height: 570px;
+    width: 750px;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+/* The PrivacyPolicyImage controls the privacy policy image */
+#PrivacyPolicyImage{
+    margin-top: -20px;
+}
+
+/* The PrivacyPolicyWell2 is where the content of the privacy policy page is */
+#PrivacyPolicyWell2{
+    background-color: #30d8f2;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-color: #30d8f2;
+    border-left-color: #30d8f2;
+    border-right-color: #30d8f2;
+    border-top-color: #30d8f2;
+    height: 500px;
+    width: 700px;
+    margin-top: -5px;
+}
+
+/* The dataLogo controls the what data road surfer collects from you image */
+#dataLogo {
+    margin-top: -20px;
+}
+
+                                /* CSS for Privacy Policy Page Ends Here */
+
+
+                                /* CSS for SignUp Page Begins Here */
+
+/* The SignUpWell controls the content of the page under the navbar */
+#SignUpWell{
+    background-color: aqua;
+    height: 570px;
+    width: 750px;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+/* The SignUpImage is the image within the SignUpWell */
+#SignUpImage {
+    margin-top: -20px;
+}
+
+/* This well has the content for the user information to register */
+#SignUpWell2 {
+    background-color: #30d8f2;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-color: #30d8f2;
+    border-left-color: #30d8f2;
+    border-right-color: #30d8f2;
+    border-top-color: #30d8f2;
+    height: 500px;
+    width: 700px;
+    margin-top: -530px;
+    margin-left: 225px;
+    
+}
+
+/* The nameImage controls the name image */
+#nameImage{
+    margin-left: -500px;
+    margin-top: -900px; 
+}
+
+/* The NameEntryBox controls the entry for the users name */
+#NameEntryBox {
+    margin-left: -255px;
+    margin-top: -472px;
+}
+
+/* The usernameImage controls the username image */
+#usernameImage {
+    margin-left: -440px;
+    margin-top: 10px;
+}
+
+/* The UsernameEntryBox allows the user to enter a username */
+#UsernameEntryBox {
+    margin-left: -135px;
+    margin-top: -35px;
+}
+
+/* The emailImage control the email image */
+#emailImage {
+    margin-left: -485px;
+    margin-top: 10px;
+}
+
+/* The EmailEntryBox allows the user to enter email */
+#EmailEntryBox {
+    margin-left: -225px;
+    margin-top: -35px;
+}
+
+/* The passwordImage control the password image */
+#passwordImage {
+    margin-left: -440px;
+    margin-top: 10px;
+}
+
+/* The PasswordEntryBox allows the user to enter a password */
+#PasswordEntryBox {
+    margin-left: -135px;
+    margin-top: -35px;
+}
+
+/* The ConfirmPasswordImage control the confirm password image */
+#confirmPasswordImage {
+    margin-left: -320px;
+    margin-top: 10px;
+}
+
+/* The ConfirmEntryBox allows the user to enter a password */
+#ConfirmEntryBox {
+     margin-left: 105px;
+    margin-top: -35px;
+}
+
+/* The dateOfBirthImage control the date of birth image*/
+#dateOfBirthImage {
+    margin-left: -365px;
+    margin-top: 10px;
+}
+
+/* The input1 allows entry for day of birth */
+#input1 {
+    margin-left: -420px;
+    margin-top: -4px; 
+}
+
+/* The input2 allows entry for month of birth */
+#input2 {
+    margin-left: -150px;
+    margin-top: -23px;
+}
+
+/* The input3 allows entry for year of birth */
+#input3 {
+    margin-left: 121px;
+    margin-top: -27px;   
+}
+
+/* The rememberBox allows the users details to be remembered */
+#rememberBox {
+    margin-left: -460px;
+    margin-top: 10px;
+}
+
+/* The terms condition checkbox */
+#terms {
+    margin-left: -215px;
+}
+
+/* This well i created to place the button in to move around */
+#buttonWell {
+    height: 15px;
+    width: 78px;  
+    margin-top: -3px;
+    margin-left: 300px;
+    background-color: transparent;
+    border-style: hidden;
+}
+
+/* The button is for the register button on the Register page*/
+#button {
+    margin-top: -30px;
+    margin-left: -20px;
+    height: 33px;
+}
+
+#result{
+    margin-top: -20px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+                                /* CSS for SignUp Page Ends Here */
+
+/* CSS for Footer Begins Here */
+#footer1{
+    background-color: black;
+    border-style: solid;
+    height: 120px;    
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/* CSS for Footer Ends Here */
